@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wraper
+{
+    width: 80%;
+    min-height: 200px;
+    border: 2px solid black;
+    margin: auto;
+}
+.main
+{
+    width: 100%;
+    min-height: 300px;
+    background-color: aqua;
+}
+.header
+{
+    width: 100%;
+    min-height: 80px;
+    background-color: rgb(19, 19, 19);
+}
+.header h2{
+    padding: 10px;
+    font-size: 33px;
+    color: white;
+}
+.menu{
+    width: 100%;
+    min-height: 60px;
+    background-color: black;
+    padding-top: 10px;
+}
+.menu a{
+   margin: 10px;
+   padding-top: 20px;
+   text-decoration: none;
+   color: aliceblue;
+    
+}
+.menu a :hover
+{
+    color: lightgray;
+    background-color:rgb(19, 19, 19); 
+}
+.main-content-slidebar{
+    width: 100%;
+    min-height: 300px;
+    /* border: 2px green; */
+    padding-top: 10px;
+    
+}
+.content{
+    width: 80%;
+    min-height: 300px;
+    float: left;
+}
+.content h3{
+    padding: 10px;
+    font-size: 23px;
+    
+}
+.content p{
+    padding-left: 10px;
+    text-align: justify;   
+}
+.content h3,p{
+    border: 2px solid black;
+}
+.main-box
+{
+    width: 100%;
+    min-height: 200px;
+
+}
+.box
+{
+    width: 35%;
+    min-height: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 10px;
+}
+.slidebar{
+
+}
+.clearfix ::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}

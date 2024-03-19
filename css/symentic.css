@@ -1,0 +1,38 @@
+header
+{
+    
+    text-align: center;
+
+}
+h3{
+    font-size: 33px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+section
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+article {
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+}
+article img{
+    width: 300px;
+    height: 200px;
+}
+article p{
+    text-align: justify;
+}
+.clearfix ::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
